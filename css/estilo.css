@@ -1,114 +1,13 @@
 *{
     outline: none;
     font-family: acumin-pro,sans-serif;
-    font-weight: 250;
+    font-size: 102%;
     font-style: normal;
   }
+  .navbar-brand img{
+      width: 30%;
+  }
 
-body{
-    margin: 0;
-    display: grid;
-    grid-template-rows: 120px 0px 0px 0px ;
-    grid-template-columns: 100%;
-    grid-template-areas: 
-    "header menu"
-    "banner banner"
-    "main main"
-    "footer footer";
-}
-
-/*HEADER*/
-header{
-    background-color: #cff7f2;
-}
-
-header img{
-    height: 103px;
-    margin-left: 31px;
-    margin-top: 4px;
-}
-
-.menu{
-    margin-top: -65px;
-    margin-left: 750px;
-}
-
-.menu a{
-    color:#3f292b;
-    padding: 23px;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-.menu a:hover{
-    font-weight: bold;
-}
-/*FIM HEADER*/
-
-@media(max-width:1024px){
-    body{
-        margin: 0;
-        display: grid;
-        grid-template-rows: 120px 0px 0px 0px ;
-        grid-template-columns: 100%;
-        grid-template-areas: 
-        "header menu"
-        "banner banner"
-        "main main"
-        "footer footer";
-    }
-}
-
-@media(max-width:920px){
-    body{
-        padding: 10px;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 80px 80px 80px;
-        grid-template-areas:
-        "header menu"
-        "banner banner"
-        "main main"
-        "footer footer";
-    }
-}
-
-@media(max-width:500px){
-    body{
-        grid-template-columns: auto;
-        grid-template-rows: 100px 200px auto auto 60px;
-        grid-template-areas: 
-        "header menu"
-        "banner banner"
-        "main main"
-        "footer footer";
-    }
-    header img {
-        height: 74px;
-        margin-top: 8px;
-        margin-left: 9px;
-    }
-    .menu{
-        margin-left: 235px;
-        margin-top: -42px;
-        margin-right: 10px;
-    }
-    .menu a{
-        font-size: 13px;
-        padding: 2px;
-    }
-}
-
-@media(max-width:380px){
-    body{
-        width: 380px;
-        grid-template-rows: 80px 80px 80px 80px 80px;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "A"
-        "B"
-        "C"
-        "D"
-        "E";
-    }
-}
+  .navbar{
+      background-color: #cff7f2;
+  }
