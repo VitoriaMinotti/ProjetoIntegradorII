@@ -72,3 +72,19 @@ footer img{
     margin-top: 3%;
     margin-left: 80%;
 }
+    outline: none;
+    font-family: acumin-pro,sans-serif;
+    font-size: 103%;
+    font-style: normal;
+  }
+  .navbar-brand img{
+      width: 28%;
+  }
+
+  .navbar{
+      background-color: #cff7f2;
+  }
+
+  footer img{
+      width: 45%;
+}
